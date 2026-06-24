@@ -74,19 +74,19 @@ const Footer = () => {
         </div>
 
         <div className="flex justify-center flex-wrap gap-4 mt-8">
-          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4">
+          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4 cursor-pointer">
             <FaFacebook className="text-lg" />
           </div>
 
-          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4">
+          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4 cursor-pointer">
             <FaInstagram className="text-lg" />
           </div>
 
-          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4">
+          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4 cursor-pointer">
             <FaLinkedin className="text-lg" />
           </div>
 
-          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4">
+          <div className="bg-[rgba(67,67,67,0.1)] rounded-xl p-4 cursor-pointer">
             <FaYoutube className="text-lg" />
           </div>
         </div>
