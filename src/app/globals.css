@@ -1,7 +1,13 @@
 @import "tailwindcss";
 @utility container {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
   margin: 7rem auto;
   max-width: 1300px;
+}
+@theme {
+  --breakpoint-3xl: 1900px;
 }
 .swiper-pagination {
   bottom: 30px !important; /* sit at the bottom edge */
